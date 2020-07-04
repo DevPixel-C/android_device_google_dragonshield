@@ -15,3 +15,10 @@
 #
 
 include device/nvidia/foster_tab/BoardConfig.mk
+
+# Boot image
+BOARD_CUSTOM_BOOTIMG := false
+BOARD_CUSTOM_BOOTIMG_MK :=
+
+# Kernel
+BOARD_KERNEL_IMAGE_NAME := Image.fit

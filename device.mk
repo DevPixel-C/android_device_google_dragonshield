@@ -15,3 +15,5 @@
 #
 
 $(call inherit-product, device/nvidia/foster_tab/device.mk)
+
+$(call inherit-product, build/target/product/vboot.mk)
