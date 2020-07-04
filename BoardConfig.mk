@@ -15,3 +15,6 @@
 #
 
 include device/nvidia/foster_tab/BoardConfig.mk
+
+# Kernel
+BOARD_KERNEL_IMAGE_NAME := Image.fit
