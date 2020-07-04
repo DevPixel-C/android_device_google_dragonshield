@@ -16,9 +16,15 @@
 
 include device/nvidia/foster_tab/BoardConfig.mk
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := dragon
+
 # Boot image
 BOARD_CUSTOM_BOOTIMG := false
 BOARD_CUSTOM_BOOTIMG_MK :=
+
+# Bootloader versions
+TARGET_BOARD_INFO_FILE := device/google/dragonshield/board-info.txt
 
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image.fit
