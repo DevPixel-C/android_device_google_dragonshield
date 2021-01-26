@@ -18,7 +18,7 @@
 $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration for dragonshield.
-$(call inherit-product, device/nvidia/foster/lineage.mk)
+include device/nvidia/foster/lineage.mk
 $(call inherit-product, device/google/dragonshield/full_dragonshield.mk)
 
 PRODUCT_NAME := lineage_dragonshield
