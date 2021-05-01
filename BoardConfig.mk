@@ -26,3 +26,6 @@ TARGET_BOARD_INFO_FILE := device/google/dragonshield/board-info.txt
 
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image.fit
+
+# Recovery
+TARGET_RECOVERY_FSTAB := device/nvidia/foster/initfiles/fstab.dragon
