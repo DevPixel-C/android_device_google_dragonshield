@@ -16,6 +16,8 @@
 
 include device/nvidia/foster_tab/BoardConfig.mk
 
+BOARD_VENDORIMAGE_PARTITION_SIZE := 318767104
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := dragon
 
