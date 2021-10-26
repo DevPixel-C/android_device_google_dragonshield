@@ -25,6 +25,7 @@ TARGET_OTA_ASSERT_DEVICE := dragon
 TARGET_BOARD_INFO_FILE := device/google/dragonshield/board-info.txt
 
 # Kernel
+TARGET_KERNEL_SOURCE    := kernel/nvidia/kernel-4.9-smaug
 BOARD_KERNEL_IMAGE_NAME := Image.fit
 
 # Recovery

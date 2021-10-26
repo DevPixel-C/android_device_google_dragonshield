@@ -2,5 +2,14 @@
  {
    "repository": "android_device_nvidia_foster_tab",
    "target_path": "device/nvidia/foster_tab"
+ },
+ {
+   "repository": "android_kernel_nvidia_kernel",
+   "target_path": "kernel/nvidia/kernel-4.9-smaug",
+   "branch": "lineage-18.1_4.9-smaug"
+ },
+ {
+   "repository": "android_hardware_nvidia_platform_t210_smaug",
+   "target_path": "hardware/nvidia/platform/t210/smaug"
  }
 ]
