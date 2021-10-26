@@ -29,4 +29,5 @@ BOARD_CUSTOM_BOOTIMG_MK :=
 TARGET_BOARD_INFO_FILE := device/google/dragonshield/board-info.txt
 
 # Kernel
+TARGET_KERNEL_SOURCE    := kernel/nvidia/kernel-4.9-smaug
 BOARD_KERNEL_IMAGE_NAME := Image.fit
