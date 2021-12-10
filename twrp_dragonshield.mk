@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,7 +14,12 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_dragonshield.mk \
-    $(LOCAL_DIR)/lineage_dragonshield.mk \
-    $(LOCAL_DIR)/twrp_dragonshield.mk
+# Inherit some common twrp stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
+
+# Inherit device configuration for porg.
+include device/nvidia/foster/lineage.mk
+$(call inherit-product, device/google/dragonshield/full_dragonshield.mk)
+
+PRODUCT_NAME := twrp_dragonshield
+PRODUCT_DEVICE := dragonshield
