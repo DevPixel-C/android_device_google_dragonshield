@@ -5,8 +5,7 @@
  },
  {
    "repository": "android_kernel_nvidia_kernel",
-   "target_path": "kernel/nvidia/kernel-4.9-smaug",
-   "branch": "lineage-18.1_4.9-smaug"
+   "target_path": "kernel/nvidia/kernel-4.9-smaug"
  },
  {
    "repository": "android_hardware_nvidia_platform_t210_smaug",
